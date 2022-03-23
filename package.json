@@ -1,0 +1,23 @@
+{
+  "name": "wc_restapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"cd backend && npm run back\" \" cd client && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhadijaBarhoumi/WC_REST_API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KhadijaBarhoumi/WC_REST_API/issues"
+  },
+  "homepage": "https://github.com/KhadijaBarhoumi/WC_REST_API#readme",
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
